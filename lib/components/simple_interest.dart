@@ -13,6 +13,7 @@ void main() {
 
 class SimpleInterest extends StatefulWidget {
   const SimpleInterest({Key? key}) : super(key: key);
+  static late String investmentMadeDateLabel= "Investment made date";
 
   @override
   State<SimpleInterest> createState() => _SimpleInterestState();
@@ -27,7 +28,7 @@ class _SimpleInterestState extends State<SimpleInterest> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("jhgh"),
+        title: Text("1.1.0"),
       ),
       body: Center(
           child: Column(
@@ -83,9 +84,13 @@ class _SimpleInterestState extends State<SimpleInterest> {
                         DatePickerr.showDatePicker = true;
                       else
                         DatePickerr.showDatePicker = false;
+                      
+                      if(DatePickerr.selectedDate.isNotEmpty)
+                        SimpleInterest.investmentMadeDateLabel=DatePickerr.selectedDate;
+
                     });
                   },
-                  child: Text('Investment made Date')),
+                  child: Text(SimpleInterest.investmentMadeDateLabel)),
               TextButton(
                   onPressed: () {
                     setState(() {
