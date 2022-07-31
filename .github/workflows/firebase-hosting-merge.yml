@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: 'sudo snap install flutter --classic'
+      - run: 'flutter sdk-path'
       - run: 'flutter channel dev'
       - run: 'flutter upgrade'
       - run: flutter config --enable-web'
