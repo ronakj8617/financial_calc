@@ -1,5 +1,6 @@
 {
     "configurations": [
+
         {
             "name": "Flutter (release mode)",
             "program": "lib/main.dart",
@@ -7,14 +8,28 @@
             "type": "dart",
             "flutterMode": "release"
         },
-
         {
-            "name" : "Web",
+            "name": "Web",
             "program": "lib/main.dart",
             "request": "launch",
-            
             "type": "dart",
             "flutterMode": "release"
-        }
+        },
+        {
+            "name": "Flutter Profile Mode",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Flutter (debug mode)",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug", 
+            "args": [
+                "--no-sound-null-safety"
+            ]            
+        },
     ]
 }
