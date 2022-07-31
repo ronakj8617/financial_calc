@@ -6,6 +6,15 @@
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
+        },
+
+        {
+            "name" : "Web",
+            "program": "lib/main.dart",
+            "request": "launch",
+            
+            "type": "dart",
+            "flutterMode": "release"
         }
     ]
 }

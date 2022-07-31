@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "924034601926",
+    "project_id": "financial-calc-73b6c",
+    "storage_bucket": "financial-calc-73b6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924034601926:android:3abac950969499718e98c7",
+        "android_client_info": {
+          "package_name": "com.example.financial_calc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924034601926-to7k6obfeivplhur2kk7dcqdrtdoor2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXmXf4AugQa8--XiLb2-A7jYf4Ky3oSHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924034601926-to7k6obfeivplhur2kk7dcqdrtdoor2k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "924034601926-l3mkusgr5et2iordgaj66ir2ona67hl2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.financialCalc"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
